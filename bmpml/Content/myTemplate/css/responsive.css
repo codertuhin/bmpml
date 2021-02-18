@@ -1,0 +1,143 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+/* max Layout: 991px. */
+@media only screen and (max-width: 991px) {
+    .fix-top-margin {
+        margin-top: 58px;
+    }
+    .top_menu_area{
+        display: none;
+    }
+    .site-title > h3 {
+        font-size: 14px;
+        margin-bottom: 21px;
+        margin-top: 15px;
+    }
+    .main_nav{
+        text-align: center;
+        display: none;
+    }
+    .main_nav > li{
+        display: block;
+        width: 100%;
+    }
+    .main_nav > li.drpdown > .drpdown_menu{
+        background: rgba(255, 255, 255, 0.7);
+    }
+    .drpdown .drpdown_menu > li:hover > a {
+        background: none;
+    }
+    .main_nav > li.drpdown > .drpdown_menu .drpdown .drpdown_menu > li:hover > a {
+        background: none;
+        color: rgb(244,67,54);
+    }
+
+    .drpdown .drpdown_menu > li.drpdown .drpdown_menu {
+        background: transparent;
+        left: 0;
+        text-align: center;
+    }
+    .main_nav .drpdown .drpdown_menu{
+        position: relative;
+        opacity: 1;
+        visibility: visible;
+        display: none;
+        box-shadow: none;
+        -webkit-transition: none;
+        transition: none;
+        text-align: center;
+    }
+    .main_nav > li > a{
+        width: 100%;
+        padding: 10px 7px;
+    }
+    .main_nav_area .btn_group {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    /*--- login modal ----*/
+    .modal_login_area .link {
+        padding-left: 0;
+    }
+    .modal_login_area .mdl-button--raised.mdl-button--colored {
+        display: block;
+        font-size: 15px;
+        margin-top: 35px;
+        padding: 0 35px;
+        text-align: center;
+    }
+
+    /*---- slider ----*/
+    #main_slider{
+        height: 60%;
+    }
+    .statistics_outer, .location_map, .filter_outer{
+        margin-top: 25px;
+    }
+    .events_area .nav-tabs.tab_center a, .events_area .nav-tabs.tab_center a:hover {
+        background: #009141 none repeat scroll 0 0;
+        border-radius: 4px;
+        color: #fff;
+        margin: 3px;
+        border: 0;
+
+    }
+    .events_area .nav-tabs.tab_center li.active a, .events_area .nav-tabs.tab_center li.active a:hover {
+        border-radius: 4px;
+        color: #505050;
+        background: #fff;
+        border: none;
+
+    }
+    .events_area .nav.nav-tabs {
+        padding: 10px;
+    }
+
+    /*-- activity --*/
+    .ativity_tab_area .news_card.margin_right {
+        margin-right: 0;
+    }
+    .activity_tab_area .news_card.margin_left {
+        margin-left: 0;
+    }
+
+    .contact_area .mdl-checkbox__label {
+        color: #636363;
+        font-size: 10px;
+    }
+
+    .footer_area .title {
+        margin-bottom: 19px;
+        margin-top: 48px;
+    }
+    .footer_area h3.title {
+        margin-top: 0;
+    }
+    .gist_area .tab-pane {
+        min-height: initial;
+    }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .badge_area > figure {
+        display: inline-block;
+        margin: 10px;
+        width: 38%;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .badge_area > figure {
+        display: inline-block;
+        margin: 10px;
+        width: 20%;
+    }
+}

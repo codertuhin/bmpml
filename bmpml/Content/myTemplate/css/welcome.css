@@ -1,0 +1,150 @@
+body{
+    width: 100%;
+    max-height: 100%;
+    /*overflow-y: hidden;*/
+}
+.content_area {
+    height: 100%;
+    margin: auto;
+    max-width: 92%;
+    min-height: 100%;
+    padding-top: 9%;
+    position: relative;
+}
+.img-responsive{
+    min-width: 100%;
+}
+.content_area > img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+/*    height: 100vh;*/
+}
+.text {
+    height: 100vh;
+    padding-top: 3%;
+}
+.content_area h1 {
+    color: #fff;
+    font-size: 50px;
+}
+.content_area h3 {
+    color: #dcdcdc;
+    font-size: 30px;
+}
+.content_area button {
+    background: rgb(244, 67, 54) none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 8px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 4px 37px;
+    text-shadow: none;
+    margin-top: 110px;
+}
+
+
+.welcome_text {
+    border: 1px solid #ddd;
+    margin-top: 60px;
+    padding: 86px 0;
+    position: relative;
+    text-align: center;
+    width: 412px;
+    border-radius: 3px;
+}
+.welcome_text h2 {
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(244, 67, 54);
+}
+
+.welcome_text p {
+    font-size: 24px;
+    margin-top: 23px;
+}
+.caption h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+.caption > p {
+    color: #555;
+    font-weight: 300;
+}
+.guest_area {
+    margin-bottom: 60px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.modal-dialog {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.modal-content {
+    height: 100%;
+    min-height: 100%;
+    height: auto;
+    border-radius: 0;
+}
+.modal-footer > button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    box-shadow: none;
+    font-size: 37px;
+    color: rgb(244, 67, 54);
+}
+#flake{
+    z-index: -1;
+}
+
+/*----- inauguration curtain------*/
+.curtain-outer{
+    z-index: 100;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    text-align: center;
+}
+img{
+    border: none;
+}
+.leftcurtain{
+    width: 50%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: 2;
+}
+.rightcurtain{
+    width: 51%;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 3;
+}
+.rightcurtain img, .leftcurtain img{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    margin: 0px auto;
+    margin-top: 150px;
+}
+.rope{
+    position: absolute;
+    top: -40px;
+    left: 70%;
+    z-index: 4;
+}
